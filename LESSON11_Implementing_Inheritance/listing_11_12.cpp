@@ -18,7 +18,7 @@ public:
         cout << "Motor Speed" << endl;
     }
 
-protected:
+private:
     void Accelerate()
     {
         cout << "Motor started" << endl;
@@ -54,7 +54,7 @@ However, as Fan features ‘private inheritance’ from ElectricMotor,
 neither the base class instance nor its public methods are
 accessible to the users of class Fan.
 Un-comment them to see a compile failure! */
-    mFan.Accelerate ();
+    //mFan.Accelerate ();
     // ElectricMotor * pMotor = &mFan;
     return 0;
 };
