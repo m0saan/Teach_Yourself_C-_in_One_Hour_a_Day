@@ -67,6 +67,9 @@ int main()
 		cout << "it does not migrate.";
 	cout << "\nA total of " << pPeg->GetNumberBelievers();
 	cout << " people believe it exists." << endl;
+	//COLOR color = pPeg->Bird::GetColor();
+	// cout << "Pegasus current color : " << color <<endl;
+	// pPeg->GetColor(); Un-commenting this line shows up an error
 	delete pPeg;
 	return 0;
 }

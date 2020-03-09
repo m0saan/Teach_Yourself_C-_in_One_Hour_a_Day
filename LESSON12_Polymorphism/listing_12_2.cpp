@@ -1,4 +1,5 @@
-// Listing 12.2 Using dynamic_cast. 
+// Listing 12.2 
+//Using dynamic_cast. 
 // Using rtti
 
 #include <iostream>
